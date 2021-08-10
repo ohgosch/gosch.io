@@ -1,11 +1,21 @@
 {
   "presets": ["next/babel", "@babel/preset-typescript"],
   "plugins": [
+    "inline-react-svg",
     [
       "babel-plugin-styled-components",
       {
         "ssr": true,
         "displayName": true
+      }
+    ],
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "public": "./public",
+        }
       }
     ]
   ],
