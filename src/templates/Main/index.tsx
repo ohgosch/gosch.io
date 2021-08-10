@@ -1,10 +1,13 @@
 import * as S from './styles';
+import BaseTemplate from 'templates/Base';
 
 const MainTemplate = () => {
   return (
-    <S.Container>
-      <h1>Main</h1>
-    </S.Container>
+    <BaseTemplate>
+      <S.Container>
+        <h1>Main</h1>
+      </S.Container>
+    </BaseTemplate>
   );
 };
 

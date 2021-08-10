@@ -16,6 +16,11 @@ export const GlobalStyle = createGlobalStyle`
       font-weight: normal;
     }
 
+    *,
+    body {
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+
     button {
       cursor: pointer;
       border: none;
