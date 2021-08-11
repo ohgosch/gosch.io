@@ -1,11 +1,18 @@
 import styled, { css } from 'styled-components';
 import { hideVisually, rem } from 'polished';
+import { mobile } from 'visual/medias';
 
 export const Container = styled.header`
-  height: ${rem(104)};
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  ${({ theme }) => css`
+    height: ${rem(theme.sizes.headerHeight)};
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ${mobile(css`
+      justify-content: center;
+    `)}
+  `}
 `;
 
 export const Title = styled.h1`
@@ -24,6 +31,10 @@ export const Menu = styled.nav`
   display: flex;
   gap: ${rem(16)};
   align-items: center;
+
+  ${mobile(css`
+    ${hideVisually()}
+  `)}
 `;
 
 export const MenuItem = styled.a`
@@ -33,6 +44,7 @@ export const MenuItem = styled.a`
     transition: 0.2s ease;
     cursor: pointer;
     text-decoration: none;
+    text-transform: lowercase;
 
     :not(.highlight) {
       :after {

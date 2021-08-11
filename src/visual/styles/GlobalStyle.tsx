@@ -1,4 +1,5 @@
 import { createGlobalStyle, css } from 'styled-components';
+import { rem } from 'polished';
 
 export const GlobalStyle = createGlobalStyle`
   ${({ theme }) => css`
@@ -13,12 +14,19 @@ export const GlobalStyle = createGlobalStyle`
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-weight: normal;
     }
 
     *,
     body {
       font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(
+        180deg,
+        rgba(80, 80, 80, 0.25) 0,
+        rgba(23, 23, 23, 0) ${rem(460)}
+      );
     }
 
     button {

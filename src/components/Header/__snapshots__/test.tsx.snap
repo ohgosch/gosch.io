@@ -58,6 +58,7 @@ exports[`<Header /> should render title 1`] = `
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
+  text-transform: lowercase;
 }
 
 .c4:not(.highlight):after {
@@ -82,6 +83,30 @@ exports[`<Header /> should render title 1`] = `
 .c4.highlight:hover {
   background-color: #DBA14B;
   color: #171717;
+}
+
+@media (max-width:46rem) {
+  .c0 {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width:46rem) {
+  .c3 {
+    border: 0;
+    -webkit-clip: rect(0 0 0 0);
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
 }
 
 <header

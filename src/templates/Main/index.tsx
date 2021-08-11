@@ -1,11 +1,13 @@
-import * as S from './styles';
 import BaseTemplate from 'templates/Base';
+import Banner from 'components/Banner';
+
+import * as S from './styles';
 
 const MainTemplate = () => {
   return (
     <BaseTemplate>
       <S.Container>
-        <h1>Main</h1>
+        <Banner />
       </S.Container>
     </BaseTemplate>
   );
