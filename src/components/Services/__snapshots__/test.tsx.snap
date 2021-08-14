@@ -1,0 +1,248 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Services /> should render correctly 1`] = `
+.c1 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  text-align: center;
+  -webkit-letter-spacing: 0.08em;
+  -moz-letter-spacing: 0.08em;
+  -ms-letter-spacing: 0.08em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: default;
+}
+
+.c0 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c2 {
+  display: grid;
+  grid-gap: 2rem;
+}
+
+.c3 {
+  background-color: #234A6B;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0.3125rem 0.25rem 0px rgba(35,74,107,0.55);
+  display: grid;
+  grid-template-columns: 4rem auto;
+  grid-gap: 1rem;
+}
+
+.c4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 2.3125rem;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  cursor: default;
+}
+
+.c5 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 1.4375rem;
+  margin-top: 1.5rem;
+}
+
+@media (max-width:46rem) {
+  .c0 {
+    width: 90%;
+    max-width: 46rem;
+  }
+}
+
+@media (min-width:46.0625rem) and (max-width:64rem) {
+  .c0 {
+    width: 88%;
+    max-width: 64rem;
+  }
+}
+
+@media (min-width:64.0625rem) {
+  .c0 {
+    width: 90%;
+    max-width: 64.0625rem;
+  }
+}
+
+@media (min-width:64.0625rem) {
+  .c2 {
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 4rem;
+  }
+}
+
+@media (max-width:64rem) {
+  .c2 {
+    margin-top: 3rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <section
+    class=""
+    id="services"
+  >
+    <h2
+      class="c1"
+    >
+      Services
+    </h2>
+    <div
+      class="c2"
+    >
+      <article
+        class="c3"
+      >
+        <svg
+          fill="none"
+          stroke="#f2f2f2"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 64 64"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M32 62.476c16.832 0 30.476-13.645 30.476-30.476S48.832 1.524 32 1.524 1.524 15.168 1.524 32 15.169 62.476 32 62.476z"
+          />
+          <path
+            d="m44.922 19.078-6.461 19.383-19.383 6.461 6.461-19.383 19.383-6.461z"
+          />
+        </svg>
+        <div
+          class=""
+        >
+          <h3
+            class="c4"
+          >
+            Discovery
+          </h3>
+          <p
+            class="c5"
+          >
+            Cuidamos da descoberta do seu produto ou serviço através de pesquisas de mercado, estratégias de marketing antes mesmo de qualquer desenvolvimento.
+          </p>
+        </div>
+      </article>
+      <article
+        class="c3"
+      >
+        <svg
+          fill="none"
+          stroke="#f2f2f2"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 64 64"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M55.893 1.28H8.107A6.83 6.83 0 0 0 1.28 8.107v47.787a6.83 6.83 0 0 0 6.827 6.827h47.787a6.83 6.83 0 0 0 6.827-6.827V8.107a6.83 6.83 0 0 0-6.827-6.827z"
+          />
+          <path
+            d="M1.28 21.76h61.44M21.76 62.72V21.76"
+            stroke-linecap="round"
+          />
+        </svg>
+        <div
+          class=""
+        >
+          <h3
+            class="c4"
+          >
+            Development
+          </h3>
+          <p
+            class="c5"
+          >
+            Cuidamos da descoberta do seu produto ou serviço através de pesquisas de mercado, estratégias de marketing antes mesmo de qualquer desenvolvimento.
+          </p>
+        </div>
+      </article>
+      <article
+        class="c3"
+      >
+        <svg
+          fill="none"
+          stroke="#f2f2f2"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 64 64"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M32 53.021 53.021 32l9.009 9.009L41.01 62.03 32 53.021z"
+          />
+          <path
+            d="m50.018 35.003-4.504-22.522L1.971 1.971l10.51 43.543 22.522 4.504 15.015-15.015z"
+          />
+          <path
+            d="m1.971 1.971 22.78 22.78"
+            stroke-linecap="round"
+          />
+          <path
+            d="M28.997 35.003a6.006 6.006 0 1 0 0-12.012 6.006 6.006 0 0 0 0 12.012z"
+          />
+        </svg>
+        <div
+          class=""
+        >
+          <h3
+            class="c4"
+          >
+            Branding
+          </h3>
+          <p
+            class="c5"
+          >
+            Cuidamos da descoberta do seu produto ou serviço através de pesquisas de mercado, estratégias de marketing antes mesmo de qualquer desenvolvimento.
+          </p>
+        </div>
+      </article>
+      <article
+        class="c3"
+      >
+        <svg
+          fill="none"
+          stroke="#f2f2f2"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 64 72"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M52.48 22.286c5.655 0 10.24-4.605 10.24-10.286S58.135 1.714 52.48 1.714 42.24 6.319 42.24 12s4.585 10.286 10.24 10.286zm-40.96 24c5.655 0 10.24-4.605 10.24-10.286s-4.585-10.286-10.24-10.286S1.28 30.319 1.28 36s4.585 10.286 10.24 10.286zm40.96 24c5.655 0 10.24-4.605 10.24-10.286s-4.585-10.286-10.24-10.286S42.24 54.319 42.24 60s4.585 10.286 10.24 10.286z"
+          />
+          <path
+            d="m20.361 41.177 23.313 13.646m-.034-37.646L20.361 30.823"
+            stroke-linecap="round"
+          />
+        </svg>
+        <div
+          class=""
+        >
+          <h3
+            class="c4"
+          >
+            Social media
+          </h3>
+          <p
+            class="c5"
+          >
+            Cuidamos da descoberta do seu produto ou serviço através de pesquisas de mercado, estratégias de marketing antes mesmo de qualquer desenvolvimento.
+          </p>
+        </div>
+      </article>
+    </div>
+  </section>
+</div>
+`;

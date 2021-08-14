@@ -1,3 +1,4 @@
+import Services from 'components/Services';
 import BaseTemplate from 'templates/Base';
 import Banner from 'components/Banner';
 
@@ -8,6 +9,7 @@ const MainTemplate = () => {
     <BaseTemplate>
       <S.Container>
         <Banner />
+        <Services />
       </S.Container>
     </BaseTemplate>
   );
