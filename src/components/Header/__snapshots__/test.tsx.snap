@@ -145,6 +145,7 @@ exports[`<Header /> should render title 1`] = `
     </a>
     <a
       class="c4 highlight"
+      href="/#contact"
     >
       Contact
     </a>

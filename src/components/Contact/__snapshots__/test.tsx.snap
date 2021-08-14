@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Contact /> should render correctly 1`] = `
+.c4 {
+  height: 3.5rem;
+  padding: 0 1rem;
+  background-color: transparent;
+  border-radius: 0.25rem;
+  border: 0.125rem solid #DBA14B;
+  color: #F2F2F2;
+  font-size: 1.25rem;
+}
+
+.c4::-webkit-input-placeholder {
+  color: rgba(242,242,242,0.7);
+}
+
+.c4::-moz-placeholder {
+  color: rgba(242,242,242,0.7);
+}
+
+.c4:-ms-input-placeholder {
+  color: rgba(242,242,242,0.7);
+}
+
+.c4::placeholder {
+  color: rgba(242,242,242,0.7);
+}
+
+.c3 {
+  width: 100%;
+  display: grid;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  grid-gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.c1 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  text-align: center;
+  -webkit-letter-spacing: 0.08em;
+  -moz-letter-spacing: 0.08em;
+  -ms-letter-spacing: 0.08em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: default;
+}
+
+.c0 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c5 {
+  height: 2.5rem;
+  padding: 0 1.5rem;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.875rem;
+  color: #F2F2F2;
+  background-color: #DBA14B;
+  border-radius: 0.25rem;
+}
+
+@media (min-width:64.0625rem) {
+  .c2 {
+    width: 33rem;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width:46.0625rem) {
+  .c3 {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media (min-width:64.0625rem) {
+  .c3 {
+    margin-top: 4rem;
+  }
+}
+
+@media (max-width:64rem) {
+  .c3 {
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width:46rem) {
+  .c3 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width:46rem) {
+  .c0 {
+    width: 90%;
+    max-width: 46rem;
+  }
+}
+
+@media (min-width:46.0625rem) and (max-width:64rem) {
+  .c0 {
+    width: 88%;
+    max-width: 64rem;
+  }
+}
+
+@media (min-width:64.0625rem) {
+  .c0 {
+    width: 90%;
+    max-width: 64.0625rem;
+  }
+}
+
+<div
+  class="c0"
+  id="contact"
+>
+  <section
+    class=""
+  >
+    <h2
+      class="c1"
+    >
+      Contact
+    </h2>
+    <form
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <input
+          class="c4"
+          name="name"
+          placeholder="Name"
+          required=""
+        />
+        <input
+          class="c4"
+          name="email"
+          placeholder="E-mail"
+          required=""
+          type="email"
+        />
+        <input
+          class="c4"
+          name="company"
+          placeholder="Company"
+          required=""
+        />
+        <input
+          class="c4"
+          name="role"
+          placeholder="Role"
+          required=""
+        />
+      </div>
+      <button
+        class="c5"
+      >
+        Submit
+      </button>
+    </form>
+  </section>
+</div>
+`;

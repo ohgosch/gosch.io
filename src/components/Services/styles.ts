@@ -8,10 +8,12 @@ export const Container = styled.section``;
 export const ServicesList = styled.div`
   display: grid;
   grid-gap: ${rem(32)};
+
   ${desktop(css`
     grid-template-columns: repeat(2, 1fr);
     margin-top: ${rem(64)};
   `)}
+
   ${mobileTablet(css`
     margin-top: ${rem(48)};
   `)}
