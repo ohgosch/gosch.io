@@ -22,7 +22,7 @@ const Footer = () => {
         <S.Network
           title="Linked-in"
           target="_blank"
-          href="https://instagram.com/goschbrasil"
+          href="https://www.linkedin.com/company/goschbrasil"
         >
           <LinkedinLogo aria-hidden />
           Linked-in

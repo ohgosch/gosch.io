@@ -105,7 +105,7 @@ exports[`<Footer /> should render correctly 1`] = `
     </a>
     <a
       class="c3"
-      href="https://instagram.com/goschbrasil"
+      href="https://www.linkedin.com/company/goschbrasil"
       target="_blank"
       title="Linked-in"
     >
