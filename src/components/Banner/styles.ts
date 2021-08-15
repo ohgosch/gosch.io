@@ -73,6 +73,7 @@ export const Phrase = styled.p`
         position: absolute;
         transform: rotate(0.5deg);
         animation: ${HightlightLineSlide} 0.5s ease;
+        pointer-events: none;
 
         ${desktop(css`
           height: ${rem(6)};

@@ -52,6 +52,7 @@ exports[`<Banner /> should render correctly 1`] = `
   transform: rotate(0.5deg);
   -webkit-animation: jMtaET 0.5s ease;
   animation: jMtaET 0.5s ease;
+  pointer-events: none;
 }
 
 .c4 {
