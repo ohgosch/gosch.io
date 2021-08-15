@@ -48,7 +48,7 @@ exports[`<Services /> should render correctly 1`] = `
   font-style: normal;
   font-weight: normal;
   font-size: 1.25rem;
-  line-height: 1.4375rem;
+  line-height: 1.75rem;
   margin-top: 1.5rem;
 }
 
@@ -130,7 +130,7 @@ exports[`<Services /> should render correctly 1`] = `
           <p
             class="c5"
           >
-            Cuidamos da descoberta do seu produto ou serviço através de pesquisas de mercado, estratégias de marketing antes mesmo de qualquer desenvolvimento.
+            Before any development, we take care of understanding and better defining your product with market research and marketing strategies.
           </p>
         </div>
       </article>
@@ -164,7 +164,7 @@ exports[`<Services /> should render correctly 1`] = `
           <p
             class="c5"
           >
-            Cuidamos da descoberta do seu produto ou serviço através de pesquisas de mercado, estratégias de marketing antes mesmo de qualquer desenvolvimento.
+            We develop solutions custom-made for you, be it your company’s institutional website or your product’s complete system.
           </p>
         </div>
       </article>
@@ -204,7 +204,7 @@ exports[`<Services /> should render correctly 1`] = `
           <p
             class="c5"
           >
-            Cuidamos da descoberta do seu produto ou serviço através de pesquisas de mercado, estratégias de marketing antes mesmo de qualquer desenvolvimento.
+            We create your visual identity from scratch using persona and target audience studies.
           </p>
         </div>
       </article>
@@ -238,7 +238,7 @@ exports[`<Services /> should render correctly 1`] = `
           <p
             class="c5"
           >
-            Cuidamos da descoberta do seu produto ou serviço através de pesquisas de mercado, estratégias de marketing antes mesmo de qualquer desenvolvimento.
+            We manage and create your brand’s content and communication, ensuring your message’s consistency.
           </p>
         </div>
       </article>

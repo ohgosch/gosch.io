@@ -19,9 +19,9 @@ const Services = () => {
             <S.ServiceContent>
               <S.ServiceTitle>Discovery</S.ServiceTitle>
               <S.ServiceDescription>
-                Cuidamos da descoberta do seu produto ou serviço através de
-                pesquisas de mercado, estratégias de marketing antes mesmo de
-                qualquer desenvolvimento.
+                Before any development, we take care of understanding and better
+                defining your product with market research and marketing
+                strategies.
               </S.ServiceDescription>
             </S.ServiceContent>
           </S.Service>
@@ -30,9 +30,8 @@ const Services = () => {
             <S.ServiceContent>
               <S.ServiceTitle>Development</S.ServiceTitle>
               <S.ServiceDescription>
-                Cuidamos da descoberta do seu produto ou serviço através de
-                pesquisas de mercado, estratégias de marketing antes mesmo de
-                qualquer desenvolvimento.
+                We develop solutions custom-made for you, be it your company’s
+                institutional website or your product’s complete system.
               </S.ServiceDescription>
             </S.ServiceContent>
           </S.Service>
@@ -41,9 +40,8 @@ const Services = () => {
             <S.ServiceContent>
               <S.ServiceTitle>Branding</S.ServiceTitle>
               <S.ServiceDescription>
-                Cuidamos da descoberta do seu produto ou serviço através de
-                pesquisas de mercado, estratégias de marketing antes mesmo de
-                qualquer desenvolvimento.
+                We create your visual identity from scratch using persona and
+                target audience studies.
               </S.ServiceDescription>
             </S.ServiceContent>
           </S.Service>
@@ -52,9 +50,8 @@ const Services = () => {
             <S.ServiceContent>
               <S.ServiceTitle>Social media</S.ServiceTitle>
               <S.ServiceDescription>
-                Cuidamos da descoberta do seu produto ou serviço através de
-                pesquisas de mercado, estratégias de marketing antes mesmo de
-                qualquer desenvolvimento.
+                We manage and create your brand’s content and communication,
+                ensuring your message’s consistency.
               </S.ServiceDescription>
             </S.ServiceContent>
           </S.Service>

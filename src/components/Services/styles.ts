@@ -47,6 +47,6 @@ export const ServiceDescription = styled.p`
   font-style: normal;
   font-weight: normal;
   font-size: ${rem(20)};
-  line-height: ${rem(23)};
+  line-height: ${rem(28)};
   margin-top: ${rem(24)};
 `;
