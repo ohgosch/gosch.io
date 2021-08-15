@@ -10,7 +10,7 @@ const Banner = () => {
       <Wrapper>
         <S.Content>
           <S.Phrase>
-            We <span className="highlight">boost business</span>{' '}
+            We <span className="highlight">boost businesses</span>{' '}
             <span className="smaller">through technology</span>
           </S.Phrase>
           <S.IllustrationWrapper>

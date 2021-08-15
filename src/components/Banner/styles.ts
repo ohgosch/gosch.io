@@ -1,7 +1,8 @@
 import styled, { css } from 'styled-components';
 import { rem } from 'polished';
+
+import { desktop, mobile, mobileTablet, tablet } from 'visual/medias';
 import { HightlightLineSlide } from 'components/Banner/animations';
-import { desktop, mobile, mobileTablet } from 'visual/medias';
 
 export const Container = styled.section`
   position: relative;
@@ -30,19 +31,30 @@ export const Phrase = styled.p`
     }
 
     ${desktop(css`
-      font-size: ${rem(64)};
+      font-size: ${rem(58)};
       line-height: ${rem(88)};
       letter-spacing: 0.05em;
 
       .smaller {
         letter-spacing: -0.02em;
+        font-size: ${rem(64)};
       }
     `)}
 
-    ${mobileTablet(css`
+    ${tablet(css`
+      font-size: ${rem(48)};
+      line-height: ${rem(64)};
+      letter-spacing: -0.04em;
+
+      .smaller {
+        letter-spacing: -0.06em;
+      }
+    `)}
+
+    ${mobile(css`
       font-size: ${rem(36)};
       line-height: ${rem(48)};
-      letter-spacing: 0.02em;
+      letter-spacing: -0.04em;
 
       .smaller {
         letter-spacing: -0.06em;
