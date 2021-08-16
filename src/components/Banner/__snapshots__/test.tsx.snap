@@ -22,7 +22,6 @@ exports[`<Banner /> should render correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   height: calc(100vh - 6.5rem);
-  min-height: 41.25rem;
 }
 
 .c3 {
@@ -55,16 +54,6 @@ exports[`<Banner /> should render correctly 1`] = `
   pointer-events: none;
 }
 
-.c4 {
-  position: absolute;
-  left: calc(65vw);
-}
-
-.c4 svg {
-  max-height: calc(100vh - 6.5rem);
-  width: 31.25rem;
-}
-
 @media (max-width:46rem) {
   .c1 {
     width: 90%;
@@ -83,6 +72,25 @@ exports[`<Banner /> should render correctly 1`] = `
   .c1 {
     width: 90%;
     max-width: 64.0625rem;
+  }
+}
+
+@media (min-width:46.0625rem) {
+  .c2 {
+    min-height: 41.25rem;
+  }
+}
+
+@media (max-width:46rem) {
+  .c2 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 1.5rem;
   }
 }
 
@@ -155,9 +163,27 @@ exports[`<Banner /> should render correctly 1`] = `
   }
 }
 
-@media (max-width:46rem) {
+@media (min-width:46.0625rem) {
   .c4 {
-    left: calc(100% - 100px);
+    position: absolute;
+    left: calc(65vw);
+  }
+}
+
+@media (max-width:46rem) {
+
+}
+
+@media (min-width:46.0625rem) {
+  .c4 svg {
+    max-height: calc(100vh - 6.5rem);
+    width: 31.25rem;
+  }
+}
+
+@media (max-width:46rem) {
+  .c4 svg {
+    width: 90%;
   }
 }
 

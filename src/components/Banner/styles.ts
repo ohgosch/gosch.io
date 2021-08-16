@@ -1,7 +1,13 @@
 import styled, { css } from 'styled-components';
 import { rem } from 'polished';
 
-import { desktop, mobile, mobileTablet, tablet } from 'visual/medias';
+import {
+  desktop,
+  mobile,
+  mobileTablet,
+  tablet,
+  tabletDesktop,
+} from 'visual/medias';
 import { HightlightLineSlide } from 'components/Banner/animations';
 
 export const Container = styled.section`
@@ -15,7 +21,16 @@ export const Content = styled.div`
     display: flex;
     align-items: center;
     height: calc(100vh - ${rem(theme.sizes.headerHeight)});
-    min-height: ${rem(660)};
+
+    ${tabletDesktop(css`
+      min-height: ${rem(660)};
+    `)}
+
+    ${mobile(css`
+      flex-direction: column;
+      justify-content: center;
+      gap: ${rem(24)};
+    `)}
   `}
 `;
 
@@ -91,15 +106,25 @@ export const Phrase = styled.p`
 
 export const IllustrationWrapper = styled.div`
   ${({ theme }) => css`
-    position: absolute;
-    left: calc(65vw);
+    ${tabletDesktop(css`
+      position: absolute;
+      left: calc(65vw);
+    `)}
 
     ${mobile(css`
-      left: calc(100% - 100px);
+      @media (max-height: ${rem(590)}) {
+        display: none;
+      }
     `)}
+
     svg {
-      max-height: calc(100vh - ${rem(theme.sizes.headerHeight)});
-      width: ${rem(500)};
+      ${tabletDesktop(css`
+        max-height: calc(100vh - ${rem(theme.sizes.headerHeight)});
+        width: ${rem(500)};
+      `)}
+      ${mobile(css`
+        width: 90%;
+      `)}
     }
   `}
 `;
