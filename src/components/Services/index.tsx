@@ -15,7 +15,9 @@ const Services = () => {
         <Heading1>Services</Heading1>
         <S.ServicesList>
           <S.Service>
-            <CompassIcon />
+            <div>
+              <CompassIcon />
+            </div>
             <S.ServiceContent>
               <S.ServiceTitle>Discovery</S.ServiceTitle>
               <S.ServiceDescription>
@@ -26,7 +28,9 @@ const Services = () => {
             </S.ServiceContent>
           </S.Service>
           <S.Service>
-            <LayoutIcon />
+            <div>
+              <LayoutIcon />
+            </div>
             <S.ServiceContent>
               <S.ServiceTitle>Development</S.ServiceTitle>
               <S.ServiceDescription>
@@ -36,7 +40,9 @@ const Services = () => {
             </S.ServiceContent>
           </S.Service>
           <S.Service>
-            <PenIcon />
+            <div>
+              <PenIcon />
+            </div>
             <S.ServiceContent>
               <S.ServiceTitle>Branding</S.ServiceTitle>
               <S.ServiceDescription>
@@ -46,7 +52,9 @@ const Services = () => {
             </S.ServiceContent>
           </S.Service>
           <S.Service>
-            <ShareIcon />
+            <div>
+              <ShareIcon />
+            </div>
             <S.ServiceContent>
               <S.ServiceTitle>Social media</S.ServiceTitle>
               <S.ServiceDescription>

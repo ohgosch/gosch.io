@@ -104,21 +104,23 @@ exports[`<Services /> should render correctly 1`] = `
       <article
         class="c3"
       >
-        <svg
-          fill="none"
-          stroke="#f2f2f2"
-          stroke-linejoin="round"
-          stroke-width="2"
-          viewBox="0 0 64 64"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M32 62.476c16.832 0 30.476-13.645 30.476-30.476S48.832 1.524 32 1.524 1.524 15.168 1.524 32 15.169 62.476 32 62.476z"
-          />
-          <path
-            d="m44.922 19.078-6.461 19.383-19.383 6.461 6.461-19.383 19.383-6.461z"
-          />
-        </svg>
+        <div>
+          <svg
+            fill="none"
+            stroke="#f2f2f2"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 64 64"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M32 62.476c16.832 0 30.476-13.645 30.476-30.476S48.832 1.524 32 1.524 1.524 15.168 1.524 32 15.169 62.476 32 62.476z"
+            />
+            <path
+              d="m44.922 19.078-6.461 19.383-19.383 6.461 6.461-19.383 19.383-6.461z"
+            />
+          </svg>
+        </div>
         <div
           class=""
         >
@@ -137,22 +139,24 @@ exports[`<Services /> should render correctly 1`] = `
       <article
         class="c3"
       >
-        <svg
-          fill="none"
-          stroke="#f2f2f2"
-          stroke-linejoin="round"
-          stroke-width="2"
-          viewBox="0 0 64 64"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M55.893 1.28H8.107A6.83 6.83 0 0 0 1.28 8.107v47.787a6.83 6.83 0 0 0 6.827 6.827h47.787a6.83 6.83 0 0 0 6.827-6.827V8.107a6.83 6.83 0 0 0-6.827-6.827z"
-          />
-          <path
-            d="M1.28 21.76h61.44M21.76 62.72V21.76"
-            stroke-linecap="round"
-          />
-        </svg>
+        <div>
+          <svg
+            fill="none"
+            stroke="#f2f2f2"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 64 64"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M55.893 1.28H8.107A6.83 6.83 0 0 0 1.28 8.107v47.787a6.83 6.83 0 0 0 6.827 6.827h47.787a6.83 6.83 0 0 0 6.827-6.827V8.107a6.83 6.83 0 0 0-6.827-6.827z"
+            />
+            <path
+              d="M1.28 21.76h61.44M21.76 62.72V21.76"
+              stroke-linecap="round"
+            />
+          </svg>
+        </div>
         <div
           class=""
         >
@@ -171,28 +175,30 @@ exports[`<Services /> should render correctly 1`] = `
       <article
         class="c3"
       >
-        <svg
-          fill="none"
-          stroke="#f2f2f2"
-          stroke-linejoin="round"
-          stroke-width="2"
-          viewBox="0 0 64 64"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M32 53.021 53.021 32l9.009 9.009L41.01 62.03 32 53.021z"
-          />
-          <path
-            d="m50.018 35.003-4.504-22.522L1.971 1.971l10.51 43.543 22.522 4.504 15.015-15.015z"
-          />
-          <path
-            d="m1.971 1.971 22.78 22.78"
-            stroke-linecap="round"
-          />
-          <path
-            d="M28.997 35.003a6.006 6.006 0 1 0 0-12.012 6.006 6.006 0 0 0 0 12.012z"
-          />
-        </svg>
+        <div>
+          <svg
+            fill="none"
+            stroke="#f2f2f2"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 64 64"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M32 53.021 53.021 32l9.009 9.009L41.01 62.03 32 53.021z"
+            />
+            <path
+              d="m50.018 35.003-4.504-22.522L1.971 1.971l10.51 43.543 22.522 4.504 15.015-15.015z"
+            />
+            <path
+              d="m1.971 1.971 22.78 22.78"
+              stroke-linecap="round"
+            />
+            <path
+              d="M28.997 35.003a6.006 6.006 0 1 0 0-12.012 6.006 6.006 0 0 0 0 12.012z"
+            />
+          </svg>
+        </div>
         <div
           class=""
         >
@@ -211,22 +217,24 @@ exports[`<Services /> should render correctly 1`] = `
       <article
         class="c3"
       >
-        <svg
-          fill="none"
-          stroke="#f2f2f2"
-          stroke-linejoin="round"
-          stroke-width="2"
-          viewBox="0 0 64 72"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M52.48 22.286c5.655 0 10.24-4.605 10.24-10.286S58.135 1.714 52.48 1.714 42.24 6.319 42.24 12s4.585 10.286 10.24 10.286zm-40.96 24c5.655 0 10.24-4.605 10.24-10.286s-4.585-10.286-10.24-10.286S1.28 30.319 1.28 36s4.585 10.286 10.24 10.286zm40.96 24c5.655 0 10.24-4.605 10.24-10.286s-4.585-10.286-10.24-10.286S42.24 54.319 42.24 60s4.585 10.286 10.24 10.286z"
-          />
-          <path
-            d="m20.361 41.177 23.313 13.646m-.034-37.646L20.361 30.823"
-            stroke-linecap="round"
-          />
-        </svg>
+        <div>
+          <svg
+            fill="none"
+            stroke="#f2f2f2"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 64 72"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M52.48 22.286c5.655 0 10.24-4.605 10.24-10.286S58.135 1.714 52.48 1.714 42.24 6.319 42.24 12s4.585 10.286 10.24 10.286zm-40.96 24c5.655 0 10.24-4.605 10.24-10.286s-4.585-10.286-10.24-10.286S1.28 30.319 1.28 36s4.585 10.286 10.24 10.286zm40.96 24c5.655 0 10.24-4.605 10.24-10.286s-4.585-10.286-10.24-10.286S42.24 54.319 42.24 60s4.585 10.286 10.24 10.286z"
+            />
+            <path
+              d="m20.361 41.177 23.313 13.646m-.034-37.646L20.361 30.823"
+              stroke-linecap="round"
+            />
+          </svg>
+        </div>
         <div
           class=""
         >
