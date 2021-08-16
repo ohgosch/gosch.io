@@ -120,6 +120,7 @@ exports[`<Header /> should render title 1`] = `
   <a
     class="c2"
     href="/"
+    title="Go home"
   >
     <svg
       aria-hidden="true"

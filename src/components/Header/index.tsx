@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <S.Container>
       <S.Title>Gosch</S.Title>
-      <S.LogoLink href="/">
+      <S.LogoLink href="/" title="Go home">
         <Logo aria-hidden />
       </S.LogoLink>
       <S.Menu>
