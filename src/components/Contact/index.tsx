@@ -61,7 +61,7 @@ const Contact = () => {
         <Heading1>Contact</Heading1>
         {success && (
           <S.FeedbackMessage>
-            Thank you for contact us. We’ll get in touch soon.
+            Thank you for contacting us. We’ll get in touch soon.
           </S.FeedbackMessage>
         )}
         {error && (
@@ -79,7 +79,7 @@ const Contact = () => {
                 onChange={({ target }) => setName(target.value)}
                 required
                 name="name"
-                placeholder="Name"
+                placeholder="Full name"
                 disabled={loading}
               />
               <Input

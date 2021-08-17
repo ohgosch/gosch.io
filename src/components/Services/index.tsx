@@ -34,8 +34,9 @@ const Services = () => {
             <S.ServiceContent>
               <S.ServiceTitle>Development</S.ServiceTitle>
               <S.ServiceDescription>
-                We develop solutions custom-made for you, be it your company’s
-                institutional website or your product’s complete system.
+                We develop solutions custom-made for you, whether it&apos;s your
+                company’s institutional website or your product’s complete
+                system.
               </S.ServiceDescription>
             </S.ServiceContent>
           </S.Service>

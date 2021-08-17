@@ -168,7 +168,7 @@ exports[`<Services /> should render correctly 1`] = `
           <p
             class="c5"
           >
-            We develop solutions custom-made for you, be it your company’s institutional website or your product’s complete system.
+            We develop solutions custom-made for you, whether it's your company’s institutional website or your product’s complete system.
           </p>
         </div>
       </article>

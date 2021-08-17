@@ -155,7 +155,7 @@ exports[`<Contact /> should render correctly 1`] = `
         <input
           class="c4"
           name="name"
-          placeholder="Name"
+          placeholder="Full name"
           required=""
         />
         <input
