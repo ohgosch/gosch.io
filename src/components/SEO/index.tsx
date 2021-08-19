@@ -8,10 +8,13 @@ type SEOProps = {
 
 const SEO = ({ description, title }: SEOProps) => {
   const siteTitle = config.title;
+  const siteSlogan = config.slogan;
 
   return (
     <Head>
-      <title>{`${title ? `${title} - ` : ''}${siteTitle}`}</title>
+      <title>
+        {title ? `${title} - ${siteTitle}` : `${siteTitle} – ${siteSlogan}`}
+      </title>
       <meta name="description" content={description} />
       <meta property="og:type" content="website" />
       <meta property="og:title" content={title || siteTitle} />
