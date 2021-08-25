@@ -4,7 +4,7 @@ import SEO from 'components/SEO';
 const Page = () => {
   return (
     <>
-      <SEO description="We boost businesses through technology" />
+      <SEO />
       <MainTemplate />
     </>
   );
