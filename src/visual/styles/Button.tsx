@@ -11,6 +11,9 @@ export const Button = styled.button`
     color: ${theme.colors.white};
     background-color: ${theme.colors.primary};
     border-radius: ${rem(4)};
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
   `}
 `;
 

@@ -1,9 +1,10 @@
 import Services from 'components/Services';
 import BaseTemplate from 'templates/Base';
+import Contact from 'components/Contact';
 import Banner from 'components/Banner';
+import Cases from 'components/Cases';
 
 import * as S from './styles';
-import Contact from 'components/Contact';
 
 const MainTemplate = () => {
   return (
@@ -11,6 +12,7 @@ const MainTemplate = () => {
       <S.Container>
         <Banner />
         <Services />
+        <Cases />
         <Contact />
       </S.Container>
     </BaseTemplate>

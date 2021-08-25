@@ -145,6 +145,12 @@ exports[`<Header /> should render title 1`] = `
       Services
     </a>
     <a
+      class="c4"
+      href="/#cases"
+    >
+      Cases
+    </a>
+    <a
       class="c4 highlight"
       href="/#contact"
     >
