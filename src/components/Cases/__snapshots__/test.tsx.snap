@@ -1,0 +1,276 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Cases /> should render correctly 1`] = `
+.c1 {
+  font-weight: bold;
+  text-align: center;
+  -webkit-letter-spacing: 0.08em;
+  -moz-letter-spacing: 0.08em;
+  -ms-letter-spacing: 0.08em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: default;
+}
+
+.c6 {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 2.3125rem;
+  -webkit-letter-spacing: 0.08em;
+  -moz-letter-spacing: 0.08em;
+  -ms-letter-spacing: 0.08em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: default;
+}
+
+.c10 {
+  height: 2.5rem;
+  padding: 0 1.5rem;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.875rem;
+  color: #F2F2F2;
+  background-color: #DBA14B;
+  border-radius: 0.25rem;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c2 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c0 {
+  background-color: #F2F2F2;
+  padding: 4rem 0;
+  color: #171717;
+  overflow: hidden;
+}
+
+.c3 {
+  display: grid;
+  margin-top: 4rem;
+}
+
+.c4 {
+  display: grid;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 26.375rem;
+  text-align: right;
+}
+
+.c4 .c5 {
+  margin-top: 2.5rem;
+}
+
+.c4 .c9 {
+  margin-top: 2.5rem;
+}
+
+.c11 {
+  display: grid;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 26.375rem;
+}
+
+.c12 {
+  position: absolute;
+  width: 49.0625rem;
+}
+
+.c12 img {
+  border-radius: 0.5rem;
+}
+
+.c7 {
+  list-style-type: none;
+  margin-top: 1rem;
+}
+
+.c8 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  cursor: default;
+}
+
+@media (min-width:46.0625rem) {
+  .c1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+}
+
+@media (max-width:46rem) {
+  .c1 {
+    font-size: 2.75rem;
+    line-height: 3.25rem;
+  }
+}
+
+@media (max-width:46rem) {
+  .c2 {
+    width: 90%;
+    max-width: 46rem;
+  }
+}
+
+@media (min-width:46.0625rem) and (max-width:64rem) {
+  .c2 {
+    width: 88%;
+    max-width: 64rem;
+  }
+}
+
+@media (min-width:64.0625rem) {
+  .c2 {
+    width: 90%;
+    max-width: 64.0625rem;
+  }
+}
+
+@media (min-width:46.0625rem) {
+  .c3 {
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 5rem;
+  }
+}
+
+@media (max-width:46rem) {
+  .c3 {
+    grid-template-columns: 1fr 0.6fr;
+    grid-gap: 4rem;
+  }
+}
+
+<section
+  class="c0"
+  id="cases"
+>
+  <h2
+    class="c1"
+  >
+    Featured case
+  </h2>
+  <div
+    class="c2 c3"
+  >
+    <div
+      class="c4"
+    >
+      <div>
+        <div
+          style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+        >
+          <div
+            style="box-sizing: border-box; display: block; max-width: 100%;"
+          >
+            <img
+              alt=""
+              aria-hidden="true"
+              role="presentation"
+              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTMyIiBoZWlnaHQ9IjE1MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+              style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+            />
+          </div>
+          <noscript />
+          <img
+            alt="Beer Awards Platform"
+            decoding="async"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+          />
+        </div>
+      </div>
+      <h3
+        class="c5 c6"
+      >
+        Services
+      </h3>
+      <ul
+        class="c7"
+      >
+        <li
+          class="c8"
+        >
+          Discovery
+        </li>
+        <li
+          class="c8"
+        >
+          Site Prototype
+        </li>
+        <li
+          class="c8"
+        >
+          Development
+        </li>
+        <li
+          class="c8"
+        >
+          SEO Analytics
+        </li>
+      </ul>
+      <div>
+        <a
+          class="c9 c10"
+          href="https://beerawardsplatform.com/home/"
+          target="_blank"
+        >
+          Access published
+        </a>
+      </div>
+    </div>
+    <div
+      class="c11"
+    >
+      <div
+        class="c12"
+      >
+        <div>
+          <div
+            style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+          >
+            <div
+              style="box-sizing: border-box; display: block; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                role="presentation"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjA3MiIgaGVpZ2h0PSIxMjE4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+                style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+              />
+            </div>
+            <noscript />
+            <img
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;

@@ -3,8 +3,6 @@
 exports[`<Contact /> should render correctly 1`] = `
 .c1 {
   font-weight: bold;
-  font-size: 3rem;
-  line-height: 3.5rem;
   text-align: center;
   -webkit-letter-spacing: 0.08em;
   -moz-letter-spacing: 0.08em;
@@ -28,6 +26,16 @@ exports[`<Contact /> should render correctly 1`] = `
   color: #F2F2F2;
   background-color: #DBA14B;
   border-radius: 0.25rem;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .c4 {
@@ -69,6 +77,20 @@ exports[`<Contact /> should render correctly 1`] = `
   justify-content: center;
   grid-gap: 1rem;
   margin-bottom: 1.5rem;
+}
+
+@media (min-width:46.0625rem) {
+  .c1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+}
+
+@media (max-width:46rem) {
+  .c1 {
+    font-size: 2.75rem;
+    line-height: 3.25rem;
+  }
 }
 
 @media (max-width:46rem) {

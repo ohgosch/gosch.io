@@ -3,8 +3,6 @@
 exports[`<Services /> should render correctly 1`] = `
 .c1 {
   font-weight: bold;
-  font-size: 3rem;
-  line-height: 3.5rem;
   text-align: center;
   -webkit-letter-spacing: 0.08em;
   -moz-letter-spacing: 0.08em;
@@ -50,6 +48,20 @@ exports[`<Services /> should render correctly 1`] = `
   font-size: 1.25rem;
   line-height: 1.75rem;
   margin-top: 1.5rem;
+}
+
+@media (min-width:46.0625rem) {
+  .c1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+}
+
+@media (max-width:46rem) {
+  .c1 {
+    font-size: 2.75rem;
+    line-height: 3.25rem;
+  }
 }
 
 @media (max-width:46rem) {

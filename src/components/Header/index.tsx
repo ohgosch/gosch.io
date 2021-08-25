@@ -15,6 +15,9 @@ const Header = () => {
         <Link href="#services" passHref>
           <S.MenuItem>Services</S.MenuItem>
         </Link>
+        <Link href="#cases" passHref>
+          <S.MenuItem>Cases</S.MenuItem>
+        </Link>
         <Link href="#contact" passHref>
           <S.MenuItem className="highlight">Contact</S.MenuItem>
         </Link>
