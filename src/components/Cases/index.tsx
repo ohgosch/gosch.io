@@ -20,7 +20,7 @@ const Cases = () => {
               alt="Beer Awards Platform"
             />
           </div>
-          <Heading2>Site Features</Heading2>
+          <Heading2>Services</Heading2>
           <S.Features>
             <S.Feature>Discovery</S.Feature>
             <S.Feature>Site Prototype</S.Feature>

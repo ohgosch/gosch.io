@@ -204,7 +204,7 @@ exports[`<Cases /> should render correctly 1`] = `
       <h3
         class="c5 c6"
       >
-        Site Features
+        Services
       </h3>
       <ul
         class="c7"
