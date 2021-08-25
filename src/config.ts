@@ -5,7 +5,8 @@ export default {
     name: 'Gosch',
     summary: 'Gosch',
   },
-  description: 'Gosch',
+  description:
+    'We boost your business using the best practices of the market. Discovering, branding, developing, and supporting.',
   social: {
     twitter: 'goschbrasil',
   },

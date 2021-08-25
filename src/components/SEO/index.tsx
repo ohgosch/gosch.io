@@ -8,6 +8,7 @@ type SEOProps = {
 
 const SEO = ({ description, title }: SEOProps) => {
   const siteTitle = config.title;
+  const siteDescription = config.description;
   const siteSlogan = config.slogan;
 
   return (
@@ -15,17 +16,25 @@ const SEO = ({ description, title }: SEOProps) => {
       <title>
         {title ? `${title} - ${siteTitle}` : `${siteTitle} – ${siteSlogan}`}
       </title>
-      <meta name="description" content={description} />
+      <meta name="description" content={description || siteDescription} />
+
       <meta property="og:type" content="website" />
       <meta property="og:title" content={title || siteTitle} />
-      <meta property="og:description" content={description} />
+      <meta
+        property="og:description"
+        content={description || siteDescription}
+      />
       <meta property="og:site_name" content={siteTitle} />
       <meta property="og:image" content="/assets/img/social.png" />
+
       <meta property="twitter:card" content="summary" />
       <meta property="twitter:creator" content={config.social.twitter} />
       <meta property="twitter:title" content={title || siteTitle} />
       <meta property="twitter:image" content="/assets/img/social_twitter.png" />
-      <meta property="twitter:description" content={description} />
+      <meta
+        property="twitter:description"
+        content={description || siteDescription}
+      />
       <link rel="icon" href="/favicon.ico" />
     </Head>
   );
