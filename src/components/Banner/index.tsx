@@ -1,6 +1,8 @@
-import Wrapper from 'visual/styles/Wrapper';
+import { Trans } from 'react-i18next';
 
 import Rocket from 'public/assets/img/rocket.svg';
+
+import Wrapper from 'visual/styles/Wrapper';
 
 import * as S from './styles';
 
@@ -10,8 +12,7 @@ const Banner = () => {
       <Wrapper>
         <S.Content>
           <S.Phrase>
-            We <span className="highlight">boost businesses</span>{' '}
-            <span className="smaller">through technology</span>
+            <Trans i18nKey="banner.text" components={{ span: <span /> }} />
           </S.Phrase>
           <S.IllustrationWrapper>
             <Rocket />

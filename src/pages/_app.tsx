@@ -1,8 +1,9 @@
-import Head from 'next/head';
 import { ThemeProvider } from 'styled-components';
+import Head from 'next/head';
 
 import { GlobalStyle } from 'visual/styles/GlobalStyle';
 import theme from 'visual/theme';
+import 'utils/locales';
 
 type AppProps = {
   Component: React.ComponentType;

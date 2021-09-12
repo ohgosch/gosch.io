@@ -1,0 +1,70 @@
+{
+  "settings": {
+    "name": "Gosch",
+    "slogan": "We Boost Businesses Through Technology",
+    "description": "We boost your business using the best practices of the market. Discovering, branding, developing, and supporting.",
+    "social": {
+      "twitter": "goschbrasil"
+    }
+  },
+  "header": {
+    "go-home": "Go home",
+    "nav": {
+      "services": "Services",
+      "cases": "Cases",
+      "contact": "Contact"
+    }
+  },
+  "banner": {
+    "text": "We <span className=\"highlight\">boost businesses</span> <span className=\"smaller\">through technology</span>"
+  },
+  "services": {
+    "title": "Services",
+    "discovery": {
+      "title": "Discovery",
+      "body": "Before any development, we take care of understanding and better defining your product with market research and marketing strategies."
+    },
+    "development": {
+      "title": "Development",
+      "body": "We develop solutions custom-made for you, whether it's your company’s institutional website or your product’s complete system."
+    },
+    "branding": {
+      "title": "Branding",
+      "body": "We create your visual identity from scratch using persona and target audience studies."
+    },
+    "social-media": {
+      "title": "Social media",
+      "body": "We manage and create your brand's content and communication, ensuring your message's consistency."
+    }
+  },
+  "cases": {
+    "title": "Featured case",
+    "services": "Services",
+    "access": "Access published",
+    "beer-awards-platform": {
+      "name": "Beer Awards Platform",
+      "services": [
+        "Discovery",
+        "Site Prototype",
+        "Development",
+        "SEO Analytics"
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "try-again": "Try again",
+    "feedback": {
+      "success": "Thank you for contacting us. We’ll get in touch soon.",
+      "error": "Oh, something went wrong and we were unable to receive your contact.",
+      "loading": "We're submitting. Please wait!"
+    },
+    "form": {
+      "name": "Full name",
+      "email": "E-mail",
+      "company": "Company",
+      "role": "Role",
+      "submit": "Submit"
+    }
+  }
+}
