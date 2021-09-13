@@ -1,5 +1,5 @@
+import { useTranslation } from 'react-i18next';
 import Head from 'next/head';
-import config from 'config';
 
 type SEOProps = {
   description?: string;
@@ -7,9 +7,10 @@ type SEOProps = {
 };
 
 const SEO = ({ description, title }: SEOProps) => {
-  const siteTitle = config.title;
-  const siteDescription = config.description;
-  const siteSlogan = config.slogan;
+  const { t } = useTranslation();
+  const siteTitle = t('settings.name');
+  const siteDescription = t('settings.description');
+  const siteSlogan = t('settings.slogan');
 
   return (
     <Head>
@@ -28,7 +29,7 @@ const SEO = ({ description, title }: SEOProps) => {
       <meta property="og:image" content="/assets/img/social.png" />
 
       <meta property="twitter:card" content="summary" />
-      <meta property="twitter:creator" content={config.social.twitter} />
+      <meta property="twitter:creator" content={t('settings.social.twitter')} />
       <meta property="twitter:title" content={title || siteTitle} />
       <meta property="twitter:image" content="/assets/img/social_twitter.png" />
       <meta

@@ -1,0 +1,70 @@
+{
+  "settings": {
+    "name": "Gosch",
+    "slogan": "Impulsionamos negócios através da Tecnologia",
+    "description": "Impulsionamos seu negócio com as melhores práticas do mercado. Descobrindo, desenhando, desenvolvendo e mantendo.",
+    "social": {
+      "twitter": "goschbrasil"
+    }
+  },
+  "header": {
+    "go-home": "Ir para o início",
+    "nav": {
+      "services": "Serviços",
+      "cases": "Cases",
+      "contact": "Contato"
+    }
+  },
+  "banner": {
+    "text": "<span className=\"highlight\">Impulsionamos negócios</span> <span className=\"smaller\">através da Tecnologia</span>"
+  },
+  "services": {
+    "title": "Serviços",
+    "discovery": {
+      "title": "Descoberta",
+      "body": "Antes mesmo de qualquer desenvolvimento, nos preocupamos em entender e definir seu produto ou serviço através de pesquisas de mercado e estratégias de marketing."
+    },
+    "development": {
+      "title": "Desenvolvimento",
+      "body": "Desenvolvemos soluções sob-medida para você, desde o site institucional até o sistema completo que sua empresa precisa."
+    },
+    "branding": {
+      "title": "Branding",
+      "body": "Criamos sua identidade visual do início com estudo de persona e público-alvo."
+    },
+    "social-media": {
+      "title": "Social media",
+      "body": "Gerenciamos e criamos a voz da sua marca nas redes sociais para manter a conscistência de conteúdo."
+    }
+  },
+  "cases": {
+    "title": "Case em Destaque",
+    "services": "Serviços",
+    "access": "Acessar",
+    "beer-awards-platform": {
+      "name": "Beer Awards Platform",
+      "services": [
+        "Descoberta",
+        "Prototipação do site",
+        "Desenvolvimento",
+        "SEO Analytics"
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contato",
+    "try-again": "Tentar novamente",
+    "feedback": {
+      "success": "Obrigado por contatar. Responderemos em breve.",
+      "error": "Oh, algo deu errado e não conseguimos receber o seu contato.",
+      "loading": "Estamos processando seu contato. Por favor, aguarde!"
+    },
+    "form": {
+      "name": "Nome completo",
+      "email": "E-mail",
+      "company": "Empresa",
+      "role": "Cargo/papel",
+      "submit": "Enviar"
+    }
+  }
+}

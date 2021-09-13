@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 
 import LoaderIcon from 'public/assets/img/icon/loader.svg';
@@ -10,6 +11,7 @@ import Input from 'visual/styles/Input';
 import * as S from './styles';
 
 const Contact = () => {
+  const { t } = useTranslation();
   const [submited, setSubmited] = useState(false);
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
@@ -58,17 +60,15 @@ const Contact = () => {
   return (
     <Wrapper id="contact">
       <S.Container>
-        <Heading1>Contact</Heading1>
+        <Heading1>{t('contact.title')}</Heading1>
         {success && (
-          <S.FeedbackMessage>
-            Thank you for contacting us. We’ll get in touch soon.
-          </S.FeedbackMessage>
+          <S.FeedbackMessage>{t('contact.feedback.success')}</S.FeedbackMessage>
         )}
         {error && (
           <S.FeedbackMessage>
-            Oh, something went wrong and we were unable to receive your contact.
+            {t('contact.feedback.error')}
             <div>
-              <Button onClick={tryAgain}>Try again</Button>
+              <Button onClick={tryAgain}>{t('contact.try-again')}</Button>
             </div>
           </S.FeedbackMessage>
         )}
@@ -79,14 +79,14 @@ const Contact = () => {
                 onChange={({ target }) => setName(target.value)}
                 required
                 name="name"
-                placeholder="Full name"
+                placeholder={t('contact.form.name')}
                 disabled={loading}
               />
               <Input
                 onChange={({ target }) => setEmail(target.value)}
                 required
                 name="email"
-                placeholder="E-mail"
+                placeholder={t('contact.form.email')}
                 type="email"
                 disabled={loading}
               />
@@ -94,24 +94,24 @@ const Contact = () => {
                 onChange={({ target }) => setCompany(target.value)}
                 required
                 name="company"
-                placeholder="Company"
+                placeholder={t('contact.form.company')}
                 disabled={loading}
               />
               <Input
                 onChange={({ target }) => setRole(target.value)}
                 required
                 name="role"
-                placeholder="Role"
+                placeholder={t('contact.form.role')}
                 disabled={loading}
               />
             </S.InputContent>
             <Button type="submit" disabled={loading}>
-              Submit
+              {t('contact.form.submit')}
             </Button>
             {loading && (
               <S.Loading>
                 <LoaderIcon aria-hidden />
-                We&apos;re submitting. Please wait!
+                {t('contact.feedback.loading')}
               </S.Loading>
             )}
           </S.Content>

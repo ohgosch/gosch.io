@@ -1,3 +1,5 @@
+import { useTranslation } from 'react-i18next';
+
 import Heading1 from 'visual/styles/Heading1';
 import Wrapper from 'visual/styles/Wrapper';
 
@@ -9,21 +11,21 @@ import PenIcon from 'public/assets/img/icon/pen.svg';
 import * as S from './styles';
 
 const Services = () => {
+  const { t } = useTranslation();
+
   return (
     <Wrapper>
       <S.Container id="services">
-        <Heading1>Services</Heading1>
+        <Heading1>{t('services.title')}</Heading1>
         <S.ServicesList>
           <S.Service>
             <div>
               <CompassIcon />
             </div>
             <S.ServiceContent>
-              <S.ServiceTitle>Discovery</S.ServiceTitle>
+              <S.ServiceTitle>{t('services.discovery.title')}</S.ServiceTitle>
               <S.ServiceDescription>
-                Before any development, we take care of understanding and better
-                defining your product with market research and marketing
-                strategies.
+                {t('services.discovery.body')}
               </S.ServiceDescription>
             </S.ServiceContent>
           </S.Service>
@@ -32,11 +34,9 @@ const Services = () => {
               <LayoutIcon />
             </div>
             <S.ServiceContent>
-              <S.ServiceTitle>Development</S.ServiceTitle>
+              <S.ServiceTitle>{t('services.development.title')}</S.ServiceTitle>
               <S.ServiceDescription>
-                We develop solutions custom-made for you, whether it&apos;s your
-                company’s institutional website or your product’s complete
-                system.
+                {t('services.development.body')}
               </S.ServiceDescription>
             </S.ServiceContent>
           </S.Service>
@@ -45,10 +45,9 @@ const Services = () => {
               <PenIcon />
             </div>
             <S.ServiceContent>
-              <S.ServiceTitle>Branding</S.ServiceTitle>
+              <S.ServiceTitle>{t('services.branding.title')}</S.ServiceTitle>
               <S.ServiceDescription>
-                We create your visual identity from scratch using persona and
-                target audience studies.
+                {t('services.branding.body')}
               </S.ServiceDescription>
             </S.ServiceContent>
           </S.Service>
@@ -57,10 +56,11 @@ const Services = () => {
               <ShareIcon />
             </div>
             <S.ServiceContent>
-              <S.ServiceTitle>Social media</S.ServiceTitle>
+              <S.ServiceTitle>
+                {t('services.social-media.title')}
+              </S.ServiceTitle>
               <S.ServiceDescription>
-                We manage and create your brand’s content and communication,
-                ensuring your message’s consistency.
+                {t('services.social-media.body')}
               </S.ServiceDescription>
             </S.ServiceContent>
           </S.Service>

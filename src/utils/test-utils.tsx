@@ -4,6 +4,8 @@ import { ReactElement } from 'react';
 
 import theme from 'visual/theme';
 
+import './locales';
+
 const customRender = (ui: ReactElement) =>
   render(<ThemeProvider theme={theme}>{ui}</ThemeProvider>);
 

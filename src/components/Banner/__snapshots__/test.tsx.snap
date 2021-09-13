@@ -115,12 +115,12 @@ exports[`<Banner /> should render correctly 1`] = `
 
 @media (min-width:46.0625rem) and (max-width:64rem) {
   .c3 {
-    font-size: 3rem;
     line-height: 4rem;
     -webkit-letter-spacing: -0.04em;
     -moz-letter-spacing: -0.04em;
     -ms-letter-spacing: -0.04em;
     letter-spacing: -0.04em;
+    font-size: 3rem;
   }
 
   .c3 .smaller {
@@ -128,17 +128,18 @@ exports[`<Banner /> should render correctly 1`] = `
     -moz-letter-spacing: -0.06em;
     -ms-letter-spacing: -0.06em;
     letter-spacing: -0.06em;
+    font-size: 3rem;
   }
 }
 
 @media (max-width:46rem) {
   .c3 {
-    font-size: 2.25rem;
     line-height: 3rem;
     -webkit-letter-spacing: -0.04em;
     -moz-letter-spacing: -0.04em;
     -ms-letter-spacing: -0.04em;
     letter-spacing: -0.04em;
+    font-size: 2rem;
   }
 
   .c3 .smaller {
@@ -146,6 +147,7 @@ exports[`<Banner /> should render correctly 1`] = `
     -moz-letter-spacing: -0.06em;
     -ms-letter-spacing: -0.06em;
     letter-spacing: -0.06em;
+    font-size: 2rem;
   }
 }
 
