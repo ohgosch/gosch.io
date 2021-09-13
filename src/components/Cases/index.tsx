@@ -9,9 +9,10 @@ import * as S from './styles';
 
 const Cases = () => {
   const { t } = useTranslation();
-  const beerServices: string[] = t('cases.beer-awards-platform.services', {
-    returnObjects: true,
-  });
+  const beerServices: string[] =
+    t('cases.beer-awards-platform.services', {
+      returnObjects: true,
+    }) || [];
 
   return (
     <S.Container id="cases">

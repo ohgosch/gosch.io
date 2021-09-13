@@ -236,7 +236,7 @@ exports[`<Cases /> should render correctly 1`] = `
           href="https://beerawardsplatform.com/home/"
           target="_blank"
         >
-          Access published
+          View
         </a>
       </div>
     </div>

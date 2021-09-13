@@ -34,8 +34,12 @@ export const Content = styled.div`
   `}
 `;
 
-export const Phrase = styled.p`
-  ${({ theme }) => css`
+type PhraseProps = {
+  isPT: boolean;
+};
+
+export const Phrase = styled.p<PhraseProps>`
+  ${({ theme, isPT }) => css`
     font-weight: bold;
     text-transform: uppercase;
     position: relative;
@@ -46,7 +50,13 @@ export const Phrase = styled.p`
     }
 
     ${desktop(css`
-      font-size: ${rem(58)};
+      ${isPT
+        ? css`
+            font-size: ${rem(51)};
+          `
+        : css`
+            font-size: ${rem(58)};
+          `}
       line-height: ${rem(88)};
       letter-spacing: 0.05em;
 
@@ -57,22 +67,37 @@ export const Phrase = styled.p`
     `)}
 
     ${tablet(css`
-      font-size: ${rem(48)};
       line-height: ${rem(64)};
       letter-spacing: -0.04em;
+      ${isPT
+        ? css`
+            font-size: ${rem(42)};
+          `
+        : css`
+            font-size: ${rem(48)};
+          `}
 
       .smaller {
         letter-spacing: -0.06em;
+        font-size: ${rem(48)};
       }
     `)}
 
     ${mobile(css`
-      font-size: ${rem(36)};
       line-height: ${rem(48)};
       letter-spacing: -0.04em;
 
+      ${isPT
+        ? css`
+            font-size: ${rem(28)};
+          `
+        : css`
+            font-size: ${rem(32)};
+          `}
+
       .smaller {
         letter-spacing: -0.06em;
+        font-size: ${rem(32)};
       }
     `)}
 
