@@ -57,6 +57,7 @@
     "feedback": {
       "success": "Thank you for contacting us. We’ll get in touch soon.",
       "error": "Oh, something went wrong and we were unable to receive your contact.",
+      "error-with-email": "Unfortunately, the problem persists.<br /> Please, contact us in the e-mail <a href=\"mailto:{{email}}\">{{email}}</a>.",
       "loading": "We're submitting. Please wait!"
     },
     "form": {

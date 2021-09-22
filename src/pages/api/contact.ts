@@ -1,6 +1,6 @@
 import { NextApiRequest, NextApiResponse } from 'next';
-import formidable from 'formidable';
 import { Client } from '@notionhq/client';
+import formidable from 'formidable';
 
 export const config = {
   api: {
@@ -18,7 +18,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
     });
   });
 
-  const { name, role, email, company } = fields;
+  const { name, role, email, company, language } = fields;
 
   const notion = new Client({
     auth: process.env.NOTION_TOKEN,
@@ -44,6 +44,10 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
       company: {
         type: 'rich_text',
         rich_text: [{ text: { content: company }, type: 'text' }],
+      },
+      language: {
+        type: 'rich_text',
+        rich_text: [{ text: { content: language }, type: 'text' }],
       },
       status: {
         type: 'select',

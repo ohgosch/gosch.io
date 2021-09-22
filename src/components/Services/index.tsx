@@ -1,4 +1,4 @@
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'next-i18next';
 
 import Heading1 from 'visual/styles/Heading1';
 import Wrapper from 'visual/styles/Wrapper';

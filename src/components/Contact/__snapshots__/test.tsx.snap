@@ -179,6 +179,7 @@ exports[`<Contact /> should render correctly 1`] = `
           name="name"
           placeholder="Full name"
           required=""
+          value=""
         />
         <input
           class="c4"
@@ -186,18 +187,21 @@ exports[`<Contact /> should render correctly 1`] = `
           placeholder="E-mail"
           required=""
           type="email"
+          value=""
         />
         <input
           class="c4"
           name="company"
           placeholder="Company"
           required=""
+          value=""
         />
         <input
           class="c4"
           name="role"
           placeholder="Role"
           required=""
+          value=""
         />
       </div>
       <button

@@ -1,4 +1,4 @@
-import { useTranslation } from 'react-i18next';
+import { i18n, Trans, useTranslation } from 'next-i18next';
 import { useState } from 'react';
 
 import LoaderIcon from 'public/assets/img/icon/loader.svg';
@@ -20,6 +20,7 @@ const Contact = () => {
   const [email, setEmail] = useState('');
   const [company, setCompany] = useState('');
   const [role, setRole] = useState('');
+  const [errorCount, setErrorCount] = useState(0);
 
   const tryAgain = () => {
     setSubmited(false);
@@ -36,6 +37,7 @@ const Contact = () => {
     form.append('email', email);
     form.append('company', company);
     form.append('role', role);
+    form.append('language', i18n?.language || 'null');
 
     const init = {
       method: 'POST',
@@ -44,14 +46,23 @@ const Contact = () => {
 
     const req = new Request('/api/contact', init);
 
-    try {
-      setLoading(true);
-      await fetch(req);
-      setSuccess(true);
-      setError(false);
-    } catch (error) {
+    const onError = () => {
       setError(true);
       setSuccess(false);
+      setErrorCount((old) => old + 1);
+    };
+
+    try {
+      setLoading(true);
+      const res = await fetch(req);
+      if (res.status === 200) {
+        setSuccess(true);
+        setError(false);
+      } else {
+        onError();
+      }
+    } catch (error) {
+      onError();
     }
     setSubmited(true);
     setLoading(false);
@@ -61,22 +72,38 @@ const Contact = () => {
     <Wrapper id="contact">
       <S.Container>
         <Heading1>{t('contact.title')}</Heading1>
-        {success && (
-          <S.FeedbackMessage>{t('contact.feedback.success')}</S.FeedbackMessage>
-        )}
-        {error && (
-          <S.FeedbackMessage>
-            {t('contact.feedback.error')}
-            <div>
-              <Button onClick={tryAgain}>{t('contact.try-again')}</Button>
-            </div>
-          </S.FeedbackMessage>
+        {(success || error) && (
+          <S.FeedbackArea>
+            {success && (
+              <S.FeedbackMessage>
+                {t('contact.feedback.success')}
+              </S.FeedbackMessage>
+            )}
+            {error && (
+              <>
+                <S.FeedbackMessage>
+                  {errorCount < 2 && <Trans i18nKey="contact.feedback.error" />}
+                  {errorCount >= 2 && (
+                    <Trans
+                      i18nKey="contact.feedback.error-with-email"
+                      values={{ email: process.env.NEXT_PUBLIC_CONTACT_EMAIL }}
+                      components={{ a: <S.Link />, br: <br /> }}
+                    />
+                  )}
+                </S.FeedbackMessage>
+                <div>
+                  <Button onClick={tryAgain}>{t('contact.try-again')}</Button>
+                </div>
+              </>
+            )}
+          </S.FeedbackArea>
         )}
         {!submited && (
           <S.Content onSubmit={onSubmit}>
             <S.InputContent>
               <Input
                 onChange={({ target }) => setName(target.value)}
+                value={name}
                 required
                 name="name"
                 placeholder={t('contact.form.name')}
@@ -84,6 +111,7 @@ const Contact = () => {
               />
               <Input
                 onChange={({ target }) => setEmail(target.value)}
+                value={email}
                 required
                 name="email"
                 placeholder={t('contact.form.email')}
@@ -92,6 +120,7 @@ const Contact = () => {
               />
               <Input
                 onChange={({ target }) => setCompany(target.value)}
+                value={company}
                 required
                 name="company"
                 placeholder={t('contact.form.company')}
@@ -99,6 +128,7 @@ const Contact = () => {
               />
               <Input
                 onChange={({ target }) => setRole(target.value)}
+                value={role}
                 required
                 name="role"
                 placeholder={t('contact.form.role')}

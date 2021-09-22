@@ -75,13 +75,22 @@ export const Loading = styled.p`
   `}
 `;
 
-export const FeedbackMessage = styled.p`
-  font-size: ${rem(20)};
-  line-height: ${rem(23)};
-  text-align: center;
-  margin-top: ${rem(46)};
-  cursor: default;
+export const FeedbackArea = styled.div`
   display: flex;
   flex-direction: column;
   gap: ${rem(16)};
+  margin-top: ${rem(46)};
+  text-align: center;
+`;
+
+export const FeedbackMessage = styled.p`
+  font-size: ${rem(20)};
+  line-height: ${rem(23)};
+  cursor: default;
+`;
+
+export const Link = styled.a`
+  ${({ theme }) => css`
+    color: ${theme.colors.white};
+  `}
 `;
