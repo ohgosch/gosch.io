@@ -57,6 +57,7 @@
     "feedback": {
       "success": "Obrigado por contatar. Responderemos em breve.",
       "error": "Oh, algo deu errado e não conseguimos receber o seu contato.",
+      "error-with-email": "Infelizmente o problema persiste.<br /> Por favor, contate-nos através do e-mail <a href=\"mailto:{{email}}\">{{email}}</a>.",
       "loading": "Estamos processando seu contato. Por favor, aguarde!"
     },
     "form": {
