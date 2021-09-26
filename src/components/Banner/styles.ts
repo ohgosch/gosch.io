@@ -86,19 +86,24 @@ export const Phrase = styled.p<PhraseProps>`
     ${mobile(css`
       line-height: ${rem(48)};
       letter-spacing: -0.04em;
-
-      ${isPT
-        ? css`
-            font-size: ${rem(28)};
-          `
-        : css`
-            font-size: ${rem(32)};
-          `}
+      text-align: center;
 
       .smaller {
         letter-spacing: -0.06em;
         font-size: ${rem(32)};
       }
+
+      ${isPT
+        ? css`
+            font-size: ${rem(24)};
+
+            .smaller {
+              font-size: ${rem(27)};
+            }
+          `
+        : css`
+            font-size: ${rem(32)};
+          `}
     `)}
 
     .highlight {
