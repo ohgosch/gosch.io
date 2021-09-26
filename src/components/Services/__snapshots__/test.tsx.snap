@@ -98,6 +98,16 @@ exports[`<Services /> should render correctly 1`] = `
   }
 }
 
+@media (max-width:25rem) {
+  .c3 {
+    grid-template-columns: 0 auto;
+  }
+
+  .c3 svg {
+    display: none;
+  }
+}
+
 <div
   class="c0"
 >

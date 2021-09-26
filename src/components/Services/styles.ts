@@ -28,6 +28,14 @@ export const Service = styled.article`
     display: grid;
     grid-template-columns: ${rem(64)} auto;
     grid-gap: ${rem(16)};
+
+    @media (max-width: ${rem(400)}) {
+      grid-template-columns: 0 auto;
+
+      svg {
+        display: none;
+      }
+    }
   `}
 `;
 
